@@ -6,6 +6,30 @@ Public service officers' friendliness plays a significant role in shaping public
 
 This system could be a key tool for public institutions, enabling them to receive objective feedback and make immediate improvements to service quality.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Models](#models)
+    - [Model Performance Comparison](#model-performance-comparison)
+        - [Tabel I: Performance Comparison of Convolutional Models](#tabel-i-performance-comparison-of-convolutional-models)
+        - [Tabel II: Performance Comparison of Landmark Models](#tabel-ii-performance-comparison-of-landmark-models)
+- [Methodology](#methodology)
+    - [Data Augmentation](#data-augmentation)
+    - [Convolutional Model with Attention](#convolutional-model-with-attention)
+    - [Facial Landmark Model](#facial-landmark-model)
+    - [Evaluation Metrics](#evaluation-metrics)
+    - [Flowchart of the Methodology](#flowchart-of-the-methodology)
+- [Datasets](#datasets)
+- [Results Discussion](#results-discussion)
+    - [Convolutional Model Performance](#convolutional-model-performance)
+    - [Landmark-Based Model Performance](#landmark-based-model-performance)
+- [Real-Time Simulation](#real-time-simulation)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+
 ## Overview
 This project focuses on developing a machine learning framework to detect facial expressions and evaluate the friendliness of public service officers in real-time. The framework utilizes images from popular datasets like the Karolinska Directed Emotional Faces (KDEF) and Real-world Affective Faces Database (RAF-DB) to train machine learning models using two distinct approaches.
 
@@ -36,7 +60,7 @@ The first approach implements two pre-trained models based on transfer learning,
 | **XGBoost**            | KDEF    | 0.69 | 0.70 | 0.69| 0.91| 0.70 |
 |                       | RAF-DB  | 0.68 | 0.68 | 0.69| 0.92| 0.71 |
 
-## Expanded Methodology
+## Methodology
 
 ### Data Augmentation
 Data augmentation techniques were applied differently for the two datasets:
@@ -51,6 +75,9 @@ For the facial landmark-based models, facial landmarks were extracted using the 
 
 ### Evaluation Metrics
 The models were evaluated using multiple metrics such as Precision, Recall, F1-Score, Accuracy, and AUC (Area Under the ROC Curve). Grad-CAM (Gradient-weighted Class Activation Mapping) was used to visualize which parts of the face the model focuses on during prediction.
+
+### Flowchart of the Methodology:
+![Flowchart](https://github.com/user-attachments/assets/a4387a84-54e8-4ac3-9b2e-7716089d8ba8)
 
 ## Datasets
 1. **KDEF**: Contains 4,900 images of human faces displaying seven different expressions (angry, disgust, fear, happy, neutral, sad, surprise). Each expression is captured from five different angles. We used 700 images per class, splitting them into 80% for training and 20% for testing.
