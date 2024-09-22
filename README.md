@@ -10,24 +10,13 @@ This system could be a key tool for public institutions, enabling them to receiv
 - [Introduction](#introduction)
 - [Overview](#overview)
 - [Models](#models)
-    - [Model Performance Comparison](#model-performance-comparison)
-        - [Tabel I: Performance Comparison of Convolutional Models](#tabel-i-performance-comparison-of-convolutional-models)
-        - [Tabel II: Performance Comparison of Landmark Models](#tabel-ii-performance-comparison-of-landmark-models)
 - [Methodology](#methodology)
-    - [Data Augmentation](#data-augmentation)
-    - [Convolutional Model with Attention](#convolutional-model-with-attention)
-    - [Facial Landmark Model](#facial-landmark-model)
-    - [Evaluation Metrics](#evaluation-metrics)
-    - [Flowchart of the Methodology](#flowchart-of-the-methodology)
 - [Datasets](#datasets)
 - [Results Discussion](#results-discussion)
-    - [Convolutional Model Performance](#convolutional-model-performance)
-    - [Landmark-Based Model Performance](#landmark-based-model-performance)
 - [Real-Time Simulation](#real-time-simulation)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
 - [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Overview
@@ -120,8 +109,6 @@ Future improvements could include:
 - [Matthew Lefrandt](https://github.com/MatthewLefrandt)
 - [Steve Marcello Liem](https://github.com/steveee27)
   
-## Acknowledgements
-This project was developed for the GEMASTIK XVII National Data Mining Competition.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
