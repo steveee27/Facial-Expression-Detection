@@ -116,11 +116,10 @@ Future improvements could include:
 - **Multi-modal Systems**: Combining facial expression recognition with audio analysis (e.g., tone of voice) could create a more comprehensive evaluation tool for assessing service quality.
 
 ## Authors
-- Marvel Martawidjaja
-- Matthew Lefrandt
-- Steve Marcello Liem
-- Ni Luh Putu Satyaning Pradnya Paramita
-
+- [Marvel Martawidjaja](https://github.com/marvelm69)
+- [Matthew Lefrandt](https://github.com/MatthewLefrandt)
+- [Steve Marcello Liem](https://github.com/steveee27)
+  
 ## Acknowledgements
 This project was developed for the GEMASTIK XVII National Data Mining Competition.
 
