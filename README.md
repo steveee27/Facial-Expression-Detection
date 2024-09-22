@@ -14,16 +14,16 @@ The first approach implements two pre-trained models based on transfer learning,
 
 ### Model Performance Comparison:
 
-#### Tabel I: Perbandingan Performa Model Konvolusi
+#### Tabel I: Performance Comparison of Convolutional Models
 
 | Model Konvolusi       | Dataset | Pre. | Rec. | F1  | AUC | Acc. |
 |-----------------------|---------|------|------|-----|-----|------|
-| **Attention**          | KDEF    | 0.97 | 0.97 | 0.97| 0.51| 0.96 |
-| **MobileNet**          | RAF-DB  | 0.80 | 0.80 | 0.80| 0.49| 0.80 |
-| **Attention**          | KDEF    | 0.93 | 0.93 | 0.73| 0.50| 0.89 |
-| **VGGNet**             | RAF-DB  | 0.59 | 0.60 | 0.58| 0.50| 0.60 |
+| **Attention MobileNet**          | KDEF    | 0.97 | 0.97 | 0.97| 0.51| 0.96 |
+|           | RAF-DB  | 0.80 | 0.80 | 0.80| 0.49| 0.80 |
+| **Attention VGGNet**          | KDEF    | 0.93 | 0.93 | 0.73| 0.50| 0.89 |
+|           | RAF-DB  | 0.59 | 0.60 | 0.58| 0.50| 0.60 |
 
-#### Tabel II: Perbandingan Performa Model Landmark
+#### Tabel II: Performance Comparison of Landmark Models
 
 | Model Landmark        | Dataset | Pre. | Rec. | F1  | AUC | Acc. |
 |-----------------------|---------|------|------|-----|-----|------|
