@@ -70,10 +70,14 @@ The models were evaluated using multiple metrics such as Precision, Recall, F1-S
 
 ## Datasets
 1. **KDEF**: Contains 4,900 images of human faces displaying seven different expressions (angry, disgust, fear, happy, neutral, sad, surprise). Each expression is captured from five different angles. We used 700 images per class, splitting them into 80% for training and 20% for testing.
+
    ![KDEF](https://github.com/user-attachments/assets/b40862e3-354e-4637-b46c-0a2b8e40cc53)
+
    **Dataset [LINK](https://www.kaggle.com/datasets/tom99763/testtt)**
-2. **RAF-DB**: Composed of approximately 30,000 images with seven facial expressions. Due to class imbalance, data augmentation techniques such as horizontal flips and brightness adjustments were applied to increase dataset variability.
+3. **RAF-DB**: Composed of approximately 30,000 images with seven facial expressions. Due to class imbalance, data augmentation techniques such as horizontal flips and brightness adjustments were applied to increase dataset variability.
+
    ![RAF](https://github.com/user-attachments/assets/c677541e-69ee-4cb5-bc90-3721478f1f35)
+
    **Dataset [LINK](https://www.kaggle.com/datasets/raufmomin/facial-expressions-dataset)**
 
 ## Results Discussion
