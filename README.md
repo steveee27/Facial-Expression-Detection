@@ -16,7 +16,7 @@ This system could be a key tool for public institutions, enabling them to receiv
 - [Real-Time Simulation](#real-time-simulation)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
-- [Authors](#authors)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Overview
@@ -108,11 +108,10 @@ Future improvements could include:
 - **Integration of Other Modalities**: The inclusion of voice recognition or body movement analysis could further enhance the accuracy of the model in assessing public service officers' friendliness.
 - **Multi-modal Systems**: Combining facial expression recognition with audio analysis (e.g., tone of voice) could create a more comprehensive evaluation tool for assessing service quality.
 
-## Authors
+## Contributors
+- [Steve Marcello Liem](https://github.com/steveee27)
 - [Marvel Martawidjaja](https://github.com/marvelm69)
 - [Matthew Lefrandt](https://github.com/MatthewLefrandt)
-- [Steve Marcello Liem](https://github.com/steveee27)
-  
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
