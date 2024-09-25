@@ -66,14 +66,14 @@ For the facial landmark-based models, facial landmarks were extracted using the 
 The models were evaluated using multiple metrics such as Precision, Recall, F1-Score, Accuracy, and AUC (Area Under the ROC Curve). Grad-CAM (Gradient-weighted Class Activation Mapping) was used to visualize which parts of the face the model focuses on during prediction.
 
 ### Flowchart of the Methodology:
-![Flowchart](https://github.com/user-attachments/assets/a4387a84-54e8-4ac3-9b2e-7716089d8ba8)
+![FlowChart](https://github.com/user-attachments/assets/c137e4b4-6d07-4d29-abb0-76e8d8925262)
 
 ## Datasets
 1. **KDEF**: Contains 4,900 images of human faces displaying seven different expressions (angry, disgust, fear, happy, neutral, sad, surprise). Each expression is captured from five different angles. We used 700 images per class, splitting them into 80% for training and 20% for testing.
-![image](https://github.com/user-attachments/assets/4d5aaeef-42fb-4c5b-887e-09b502f80556)
+![KDEF](https://github.com/user-attachments/assets/b40862e3-354e-4637-b46c-0a2b8e40cc53)
 **Dataset [LINK](https://www.kaggle.com/datasets/tom99763/testtt)**
-3. **RAF-DB**: Composed of approximately 30,000 images with seven facial expressions. Due to class imbalance, data augmentation techniques such as horizontal flips and brightness adjustments were applied to increase dataset variability.
-![image](https://github.com/user-attachments/assets/92c48dec-f8fd-42ed-8603-e04eeb25a2dc)
+2. **RAF-DB**: Composed of approximately 30,000 images with seven facial expressions. Due to class imbalance, data augmentation techniques such as horizontal flips and brightness adjustments were applied to increase dataset variability.
+![RAF](https://github.com/user-attachments/assets/c677541e-69ee-4cb5-bc90-3721478f1f35)
 **Dataset [LINK](https://www.kaggle.com/datasets/raufmomin/facial-expressions-dataset)**
 
 ## Results Discussion
@@ -91,7 +91,7 @@ The results demonstrate that convolutional models are better suited for complex,
 A 10-minute real-time simulation was conducted using the best-performing MobileNet model to evaluate the friendliness of a public service officer at Universitas Bina Nusantara’s promotion team. The officer’s facial expressions were recorded and analyzed, and the results were saved into a CSV file that tracked facial expressions over time.
 
 This simulation showcases the system's potential to provide real-time feedback on public service officers' interactions with the public, offering an efficient way to evaluate service quality.
-![WhatsApp Image 2024-09-18 at 15 58 51_c422222a](https://github.com/user-attachments/assets/cfa4d55a-d36d-4a83-9cc5-612d52247d81)
+![RealTime](https://github.com/user-attachments/assets/67309f8a-6ab5-45d8-a514-8d2ebf56ad37)
 
 ## Conclusion
 
